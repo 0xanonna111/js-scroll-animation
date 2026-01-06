@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #f4f6f8;
+}
+
+.title {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.box {
+  height: 200px;
+  margin: 50px auto;
+  max-width: 600px;
+  background: #007bff;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  border-radius: 10px;
+  transition: 0.6s ease;
+}
+
+/* Animation states */
+.hidden {
+  opacity: 0;
+  transform: translateY(80px);
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
